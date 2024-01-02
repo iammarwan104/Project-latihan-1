@@ -17,8 +17,8 @@ export default function () {
             {/* <LandingPage /> */}
             {/* <OurClient /> */}
             {/* <Unsent /> */}
-            <Helping />
-            {/* <Design /> */}
+            {/* <Helping /> */}
+            <Design />
             {/* <TeamSmith /> */}
             {/* <Marketing /> */}
         </>
