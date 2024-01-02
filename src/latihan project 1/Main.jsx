@@ -16,8 +16,8 @@ export default function () {
             {/* <Navbar /> */}
             {/* <LandingPage /> */}
             {/* <OurClient /> */}
-            <Unsent />
-            {/* <Helping /> */}
+            {/* <Unsent /> */}
+            <Helping />
             {/* <Design /> */}
             {/* <TeamSmith /> */}
             {/* <Marketing /> */}
