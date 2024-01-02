@@ -13,14 +13,14 @@ export default function () {
     })
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <LandingPage />
-            <OurClient />
+            {/* <OurClient />
             <Unsent />
             <Helping />
             <Design />
             <TeamSmith />
-            <Marketing />
+            <Marketing /> */}
         </>
     )
 }
