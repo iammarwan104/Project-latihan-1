@@ -8,7 +8,6 @@ export default function Unsent() {
                 <h2 className="text-3xl md:text-4xl xl:text-5xl mb-2 font-semibold">The unseen of spending three years at Pixelgrade</h2>
                 <p className='text-base text-Gray mb-4 md:mb-8 lg:mb-12 text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                 <button type="button" class="text-white bg-Primary hover:bg-Primary focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Register</button>
-
             </div>
         </section>
     )

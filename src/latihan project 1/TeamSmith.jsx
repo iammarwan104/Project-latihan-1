@@ -48,7 +48,6 @@ export default function TeamSmith() {
                     </svg>
                     </span></a>
                 </div>
-
             </div>
         </section>
     )

@@ -19,8 +19,8 @@ export default function () {
             {/* <Unsent /> */}
             {/* <Helping /> */}
             {/* <Design /> */}
-            <TeamSmith />
-            {/* <Marketing /> */}
+            {/* <TeamSmith /> */}
+            <Marketing />
         </>
     )
 }
