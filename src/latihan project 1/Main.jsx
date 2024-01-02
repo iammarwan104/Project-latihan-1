@@ -18,8 +18,8 @@ export default function () {
             {/* <OurClient /> */}
             {/* <Unsent /> */}
             {/* <Helping /> */}
-            <Design />
-            {/* <TeamSmith /> */}
+            {/* <Design /> */}
+            <TeamSmith />
             {/* <Marketing /> */}
         </>
     )
