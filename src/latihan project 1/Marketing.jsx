@@ -4,7 +4,7 @@ import hero6 from './img/hero6.jpg'
 import hero7 from './img/hero7.jpg'
 export default function Marketing() {
     return (
-        <section id='marketing' className="h-screen  px-8 md:px-16 lg:px-32 py-12 bg-white">
+        <section id='marketing' className="px-8 md:px-16 lg:px-32 pt-16 pb-24 bg-white">
             <div className='text-center text-sm mb-8'>
                 <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-2'>Caring is the new marketing</h2>
                 <p className='text-sm md:text-sm text-center lg:text-lg  mb-4 md:mb-8 lg:mb-12'>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>

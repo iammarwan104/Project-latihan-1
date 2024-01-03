@@ -7,20 +7,19 @@ import Helping from './Helping';
 import Design from './Design';
 import TeamSmith from './TeamSmith';
 import Marketing from './Marketing';
+import Footer from './Footer';
 export default function () {
-    window.addEventListener('scroll', () => {
-        console.log(window.scrollY);
-    })
     return (
         <>
-            {/* <Navbar /> */}
-            {/* <LandingPage /> */}
-            {/* <OurClient /> */}
-            {/* <Unsent /> */}
-            {/* <Helping /> */}
-            {/* <Design /> */}
-            {/* <TeamSmith /> */}
+            <Navbar />
+            <LandingPage />
+            <OurClient />
+            <Unsent />
+            <Helping />
+            <Design />
+            <TeamSmith />
             <Marketing />
+            <Footer />
         </>
     )
 }

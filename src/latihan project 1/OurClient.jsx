@@ -4,7 +4,7 @@ import logo_makkode from '../utils/img/Logo Makkode 2.png'
 import react from '../utils/img/react.jpg'
 export default function () {
     return (
-        <section id="client" className="h-screen px-8 md:px-16 lg:px-32">
+        <section id="client" className="px-8 md:px-16 lg:px-32 mb-12">
             <div className="mt-4  mb-4 md:mb-8 lg:mb-12 text-center">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold">Our Clients</h1>
                 <p className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis.</p>
