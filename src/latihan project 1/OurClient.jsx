@@ -1,7 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import logo_makkode from '../utils/img/Logo Makkode 2.png'
-import react from '../utils/img/react.jpg'
+import logo_makkode from './img/linux.png'
+import react from './img/ubuntu.png'
 export default function () {
     return (
         <section id="client" className="px-8 md:px-16 lg:px-32 mb-12">
