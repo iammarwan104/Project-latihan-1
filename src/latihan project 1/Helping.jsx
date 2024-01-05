@@ -1,7 +1,7 @@
 import React from 'react';
 export default function () {
     return (
-        <section id='helping' className='h-[50vh] px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100'>
+        <section id='helping' className='h-auto lg:h-[50vh] px-8 py-4 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100'>
             <div className=''>
                 <h2 className='text-2xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center md:text-left'
                 >Helping a local
