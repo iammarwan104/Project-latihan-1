@@ -11,7 +11,7 @@ export default function Marketing() {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-4'>
                 <div className='relative'>
-                    <img src={hero5} alt="..." width={300} height={300} className=' h-full w-auto object-cover rounded-lg' />
+                    <img src={hero5} alt="..." width={300} height={300} loading='lazy' fetchpriofiry='low' className='h-full w-auto object-cover rounded-lg' />
                     <div className='absolute w-[80%] left-[50%] -translate-x-[50%] translate-y-[50%] -bottom-[0%] p-2 bg-slate-100 rounded-lg '>
                         <p className="text-center text-sm xl:text-lg">Creating Streamlined Safeguarding Processes with OneRen</p>
                         <a href="#" className='text-Primary text-sm xl:text-lg font-semibold justify-center flex items-center gap-8'>
@@ -25,7 +25,7 @@ export default function Marketing() {
                     </div>
                 </div>
                 <div className='relative'>
-                    <img src={hero6} alt="..." width={300} height={300} className=' w-full h-auto rounded-lg' />
+                    <img src={hero6} alt="..." width={300} height={300} fetchpriority="low" loading="lazy" className=' w-full h-auto rounded-lg' />
                     <div className='absolute w-[80%] left-[50%] -translate-x-[50%] translate-y-[50%] -bottom-[0%] p-2 bg-slate-100 rounded-lg '>
                         <p className="text-center text-sm xl:text-lg">Creating Streamlined Safeguarding Processes with OneRen</p>
                         <a href="#" className='text-Primary text-sm xl:text-lg font-semibold justify-center flex items-center gap-8'>
@@ -39,7 +39,7 @@ export default function Marketing() {
                     </div>
                 </div>
                 <div className='relative'>
-                    <img src={hero7} alt="..." width={300} height={300} className=' w-full h-auto rounded-lg' />
+                    <img src={hero7} alt="..." width={300} height={300} fetchpriority="low" loading="lazy" className=' w-full h-auto rounded-lg' />
                     <div className='absolute w-[80%] left-[50%] -translate-x-[50%] translate-y-[50%] -bottom-[0%] p-2 bg-slate-100 rounded-lg '>
                         <p className="text-center text-sm xl:text-lg">Creating Streamlined Safeguarding Processes with OneRen</p>
                         <a href="#" className='text-Primary text-sm xl:text-lg font-semibold justify-center flex items-center gap-8'>

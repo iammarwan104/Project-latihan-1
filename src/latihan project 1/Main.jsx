@@ -10,7 +10,7 @@ import Marketing from './Marketing';
 import Footer from './Footer';
 export default function () {
     return (
-        <>
+        <div>
             <Navbar />
             <LandingPage />
             <OurClient />
@@ -20,6 +20,6 @@ export default function () {
             <TeamSmith />
             <Marketing />
             <Footer />
-        </>
+        </div>
     )
 }
