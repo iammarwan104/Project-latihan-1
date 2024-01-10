@@ -12,10 +12,10 @@ export default function () {
             <div>
                 <Marquee speed={90} pauseOnHover={true} direction='right' >
                     <div className='w-screen grid grid-cols-4 items-center justify-between'>
-                        <img src={logo_makkode} alt="Logo Makkode" width={300} height={300} className="w-[4rem] h-auto mx-auto" />
-                        <img src={react} alt="Logo Makkode" width={300} height={300} className="w-[4rem] h-auto mx-auto" />
-                        <img src={logo_makkode} alt="Logo Makkode" width={300} height={300} className="w-[4rem] h-auto mx-auto" />
-                        <img src={react} alt="Logo Makkode" width={300} height={300} className="w-[4rem] h-auto mx-auto" />
+                        <img src={logo_makkode} alt="Logo Makkode" width={300} height={300} fetchpriority="low" loading="lazy" className="w-[4rem] h-auto mx-auto" />
+                        <img src={react} alt="Logo Makkode" width={300} height={300} fetchpriority="low" loading="lazy" className="w-[4rem] h-auto mx-auto" />
+                        <img src={logo_makkode} alt="Logo Makkode" width={300} height={300} fetchpriority="low" loading="lazy" className="w-[4rem] h-auto mx-auto" />
+                        <img src={react} alt="Logo Makkode" width={300} height={300} fetchpriority="low" loading="lazy" className="w-[4rem] h-auto mx-auto" />
                     </div>
                 </Marquee>
             </div>

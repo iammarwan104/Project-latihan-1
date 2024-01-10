@@ -3,7 +3,7 @@ import hero4 from './img/hero4.jpg';
 export default function TeamSmith() {
     return (
         <section id='team' className="grid grid-cols-1 md:grid-cols-[1.5fr_2fr] items-center justify-between px-8 gap-12 md:px-16 lg:px-32">
-            <img src={hero4} alt="hero 2" width={300} height={300} className='w-[70%] mx-auto md:w-[80%] rounded-lg h-auto mb-6' />
+            <img src={hero4} alt="hero 2" width={300} height={300} fetchpriority="low" loading="lazy" className='w-[70%] mx-auto md:w-[80%] rounded-lg h-auto mb-6' />
             <div className='w-full'>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4">The unseen of spending three years at Pixelgrade</h2>
                 <p className='text-sm md:text-base text-justify  mb-4 md:mb-8 lg:mb-12'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.</p>
