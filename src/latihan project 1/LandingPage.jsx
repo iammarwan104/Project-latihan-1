@@ -16,8 +16,6 @@ export default function LandingPage() {
     setAnimate(true)
   }
 
-  console.log(animate);
-
   return (
     <section onLoad={kopi}
       id="dashboard"
