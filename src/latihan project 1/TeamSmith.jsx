@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import hero4 from './img/hero4.jpg';
 export default function TeamSmith() {
+    const [showDesign, setShowDesign] = useState(false);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 2100) {
+        setShowDesign(true);
+      }
+    });
     return (
-        <section id='team' className="grid grid-cols-1 md:grid-cols-[1.5fr_2fr] items-center justify-between px-8 gap-12 md:px-16 lg:px-32">
+        <section id='team' className={`relative ${
+            showDesign? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
+          } duration-700 ease-in-out grid grid-cols-1 md:grid-cols-[1.5fr_2fr] items-center justify-between px-8 gap-12 md:px-16 lg:px-32`}>
             <img src={hero4} alt="hero 2" width={300} height={300} fetchpriority="low" loading="lazy" className='w-[70%] mx-auto md:w-[80%] rounded-lg h-auto mb-6' />
             <div className='w-full'>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4">The unseen of spending three years at Pixelgrade</h2>

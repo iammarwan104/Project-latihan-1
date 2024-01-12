@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import hero3 from './img/hero3.png';
 export default function Design() {
+    const [showDesign, setShowDesign] = useState(false);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 1700) {
+        setShowDesign(true);
+      }
+    });
     return (
-        <section id='design' className="grid grid-cols-1 md:grid-cols-[1.5fr_2fr] py-8 gap-12 items-center px-8 md:px-16 lg:px-32">
+        <section id='design' className={`relative ${
+            showDesign? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
+          } duration-700 ease-in-out grid grid-cols-1 md:grid-cols-[1.5fr_2fr] py-8 gap-12 items-center px-8 md:px-16 lg:px-32`}>
             <img src={hero3} alt="hero 2" width={300} height={300} fetchpriority="low" loading="lazy" className=' w-[70%] md:w-full mx-auto mb-2 xl:w-[70%]' />
             <div className=''>
                 <h2 className=" text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">How to design your site footer like we did</h2>
