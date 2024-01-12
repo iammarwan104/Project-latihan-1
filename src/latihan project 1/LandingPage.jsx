@@ -45,8 +45,8 @@ export default function LandingPage() {
       />
       <a
         href="#dashboard"
-        className={`fixed z-50 bottom-[1rem] text-3xl animate-bounce right-[1rem] duration-100 ${
-          showButtonBackToTop ? "block opacity-1" : "hidden opacity-0"
+        className={`fixed z-50 bottom-[1rem] text-3xl animate-bounce duration-700 ${
+          showButtonBackToTop ? "opacity-1 right-[1rem] " : "opacity-0 -right-[1rem] "
         }`}
       >
         {/* <i className="fa-solid fa-circle-up"></i> */}
