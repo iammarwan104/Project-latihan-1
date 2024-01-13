@@ -5,13 +5,15 @@ import react from "./img/ubuntu.png";
 export default function () {
   const [showHeaderClient, setShowHeaderClient] = useState(false);
   const [showManage, setShowManage] = useState(false);
+  const [community, setCommunity] = useState(false);
   // const client = document.getElementById('client');
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 400) {
       setShowHeaderClient(true);
     }
-    if (window.scrollY > 500) {
+    if (window.scrollY > 600) {
       setShowManage(true);
+      setCommunity(true);
     }
     console.log(window.scrollY);
   });
@@ -85,7 +87,7 @@ export default function () {
         <div
           className={` grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between`}
         >
-          <div className="text-center bg-slate-50 p-4 shadow-lg">
+          <div className={`relative ${community ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-100 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"
@@ -111,7 +113,7 @@ export default function () {
               membership renewals and payments
             </p>
           </div>
-          <div className="text-center bg-slate-50 p-4 shadow-lg">
+          <div className={`relative ${community ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-200 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"
@@ -197,7 +199,7 @@ export default function () {
               membership renewals and payments
             </p>
           </div>
-          <div className="text-center bg-slate-50 p-4 shadow-lg">
+          <div className={`relative ${community ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-300 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"

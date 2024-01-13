@@ -1,20 +1,22 @@
 import React, {useState} from 'react';
 export default function () {
     const [showHelping, setShowHelping] = useState(false);
+    const [helpingTextAnimation, setHelpingTextAnimation] = useState(false);
 
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 1200) {
+      if (window.scrollY > 1300) {
         setShowHelping(true);
+        setHelpingTextAnimation(true);
       }
     });
     return (
-        <section id='helping' className={`${showHelping ? 'opacity-100' : 'opacity-0'} duration-700 h-auto lg:h-[50vh] px-8 py-4 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100`}>
+        <section id='helping' className={`${helpingTextAnimation ? 'opacity-100' : 'opacity-0'} duration-700 h-auto lg:h-[50vh] px-8 py-4 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100`}>
             <div className=''>
-                <h2 className='text-2xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center md:text-left'
+                <h2 className={`relative ${helpingTextAnimation ? '-left-0' : '-left-52'} duration-700 delay-100 ease-in-out text-Primary text-2xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center md:text-left`}
                 >Helping a local
-                    <div className='text-Primary'> business reinvent it self</div>
                 </h2>
-                <p className='text-sm text-center md:text-left'>We reached here with our hard work and dedication</p>
+                <h2 className={`relative ${helpingTextAnimation ? '-left-0' : '-left-52'} duration-700 delay-200 ease-in-out text-2xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center md:text-left`}> business reinvent it self</h2>
+                <p className={`relative ${helpingTextAnimation ? '-left-0' : '-left-52'} duration-700 delay-300 ease-in-out text-sm text-center md:text-left`}>We reached here with our hard work and dedication</p>
             </div>
             <div className="grid grid-cols-2 gap-2">
                 <div className='flex items-center justify-center md:justify-between gap-4 lg:gap-8'>

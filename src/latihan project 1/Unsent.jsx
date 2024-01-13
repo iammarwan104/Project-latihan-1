@@ -4,7 +4,7 @@ export default function Unsent() {
     const [showUnsent, setShowUnsent] = useState(false);
 
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 900) {
+      if (window.scrollY > 1000) {
         setShowUnsent(true);
       }
     });

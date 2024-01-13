@@ -13,9 +13,6 @@ export default function LandingPage() {
 
   const [animate, setAnimate] = useState(false)
   const [lesson, setLesson] = useState(false)
-  const [from, setFrom] = useState(false)
-  const [deskripsi, setDeskripsi] = useState(false)
-
 
     function kopi(){
     setAnimate(true)
@@ -30,15 +27,15 @@ export default function LandingPage() {
     >
       <div className={`text-center md:text-left relative ${animate ? '-top-0 opacity-100' : '-top-32 opacity-0'} ease-in-linear duration-300 `}>
 
-        <h2 className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-100 text-3xl md:text-4xl lg:text-5xl mb-2 md:mb-0 font-semibold`}>
+        <h2 className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-100 ease-in-out text-3xl md:text-4xl lg:text-5xl mb-2 md:mb-0 font-semibold`}>
           Lessons and insights
         </h2>
 
-        <h2 className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-200 text-3xl text-Primary md:text-4xl lg:text-5xl mb-2 md:mb-0 font-semibold`}>
+        <h2 className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-200 ease-in-out text-3xl text-Primary md:text-4xl lg:text-5xl mb-2 md:mb-0 font-semibold`}>
         from 8 years
         </h2>
 
-        <p className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-300 text-[11.14px] text-Gray mb-4 md:mb-8 lg:mb-12`}>
+        <p className={` relative ${lesson ? '-left-0' : '-left-52'} duration-700 delay-300 ease-in-out text-[11.14px] text-Gray mb-4 md:mb-8 lg:mb-12`}>
           Where to grow your business as a photographer: site or social media?
         </p>
 
