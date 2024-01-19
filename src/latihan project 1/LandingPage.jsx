@@ -1,8 +1,6 @@
 import React, { useRef, useState } from "react";
-import { motion, useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import hero_1 from "./img/hero1.png";
-import BackToTopButton from "./BackToTopButtton";
-import { once } from "lodash";
 export default function LandingPage() {
   const [showButtonBackToTop, setShowButtonBackToTop] = useState(false);
   window.addEventListener("scroll", () => {
