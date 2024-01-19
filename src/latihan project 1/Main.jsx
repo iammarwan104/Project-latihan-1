@@ -15,7 +15,7 @@ export default function () {
             <LandingPage />
             <OurClient />
             <Unsent />
-            {/* <Helping /> */}
+            <Helping />
             {/* <Design /> */}
             {/* <TeamSmith /> */}
             {/* <Marketing /> */}
