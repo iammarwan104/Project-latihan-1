@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import hero3 from './img/hero3.png';
 import { useInView } from 'framer-motion';
 export default function Design() {
