@@ -1,17 +1,13 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import hero2 from './img/hero2.png';
+import { useInView } from 'framer-motion';
 export default function Unsent() {
-    const [showUnsent, setShowUnsent] = useState(false);
-
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 1000) {
-        setShowUnsent(true);
-      }
-    });
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once : true})
     return (
-        <section id='unsent' className={`relative ${
-            showUnsent? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
-          } duration-700 ease-in-out grid grid-cols-1 md:grid-cols-[1.5fr_2fr] gap-12 items-center justify-between py-8 px-8 md:px-16 lg:px-32`}>
+        <section ref={ref} id='unsent' className={`relative ${
+            isInView? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
+          } duration-700 delay-[.5s] ease-in-out grid grid-cols-1 md:grid-cols-[1.5fr_2fr] gap-12 items-center justify-between py-8 px-8 md:px-16 lg:px-32`}>
             <img src={hero2} alt="hero 2" width={300} height={300} fetchpriority="low" loading="lazy" className='w-[70%] mx-auto md:w-full xl:w-[80%] h-auto mb-2 md:mb-0' />
             <div className='w-full'>
                 <h2 className="text-3xl md:text-4xl xl:text-5xl mb-2 font-semibold">The unseen of spending three years at Pixelgrade</h2>
