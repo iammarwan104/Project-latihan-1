@@ -16,7 +16,7 @@ export default function () {
             <OurClient />
             <Unsent />
             <Helping />
-            {/* <Design /> */}
+            <Design />
             {/* <TeamSmith /> */}
             {/* <Marketing /> */}
             {/* <Footer /> */}
