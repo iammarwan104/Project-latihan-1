@@ -1,23 +1,9 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import Marquee from "react-fast-marquee";
 import logo_makkode from "./img/linux.png";
 import react from "./img/ubuntu.png";
 import { useInView } from "framer-motion";
 export default function () {
-  const [showHeaderClient, setShowHeaderClient] = useState(false);
-  const [showManage, setShowManage] = useState(false);
-  const [community, setCommunity] = useState(false);
-  // const client = document.getElementById('client');
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 400) {
-      setShowHeaderClient(true);
-    }
-    if (window.scrollY > 600) {
-      setShowManage(true);
-      setCommunity(true);
-    }
-  });
-
   const ref = useRef(null);
   const isInView = useInView(ref, {once : true});
 
