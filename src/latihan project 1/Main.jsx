@@ -14,12 +14,12 @@ export default function () {
             <Navbar />
             <LandingPage />
             <OurClient />
-            <Unsent />
-            <Helping />
-            <Design />
-            <TeamSmith />
-            <Marketing />
-            <Footer />
+            {/* <Unsent /> */}
+            {/* <Helping /> */}
+            {/* <Design /> */}
+            {/* <TeamSmith /> */}
+            {/* <Marketing /> */}
+            {/* <Footer /> */}
         </div>
     )
 }

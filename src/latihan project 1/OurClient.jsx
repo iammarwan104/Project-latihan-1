@@ -15,7 +15,6 @@ export default function () {
       setShowManage(true);
       setCommunity(true);
     }
-    console.log(window.scrollY);
   });
   return (
     <section id="client" className="px-8 md:px-16 lg:px-32 mb-12">
