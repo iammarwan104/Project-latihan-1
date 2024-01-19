@@ -12,7 +12,7 @@ export default function () {
       <div
         className={`relative ${
           isInView ? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
-        } duration-700 ease-in-out mt-4 mb-4 md:mb-8 lg:mb-12 text-center`}
+        } duration-700 delay-200 ease-in-out mt-4 mb-4 md:mb-8 lg:mb-12 text-center`}
       >
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
           Our Clients
@@ -65,7 +65,7 @@ export default function () {
 
       <div className={`relative ${
             isInView ? "bottom-0 opacity-100" : "-bottom-52 opacity-0"
-          } duration-700 ease-in-out `}>
+          } duration-700 delay-300 ease-in-out `}>
         <div
           className={`text-center my-8`}
         >
@@ -77,7 +77,7 @@ export default function () {
         <div
           className={` grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-between`}
         >
-          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-100 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
+          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-[.4s]ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"
@@ -103,7 +103,7 @@ export default function () {
               membership renewals and payments
             </p>
           </div>
-          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-200 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
+          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-[.5s] ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"
@@ -189,7 +189,7 @@ export default function () {
               membership renewals and payments
             </p>
           </div>
-          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-300 ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
+          <div className={`relative ${isInView ? 'top-0 opacity-1' : 'top-52 opacity-0'} duration-700 delay-[.6s] ease-in-out  text-center bg-slate-50 p-4 shadow-lg`}>
             <svg
               width="46"
               height="40"
