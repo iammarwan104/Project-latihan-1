@@ -18,8 +18,8 @@ export default function () {
             <Helping />
             <Design />
             <TeamSmith />
-            {/* <Marketing /> */}
-            {/* <Footer /> */}
+            <Marketing />
+            <Footer />
         </div>
     )
 }

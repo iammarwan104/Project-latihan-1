@@ -4,7 +4,7 @@ export default function () {
     const ref = useRef(null);
     const isInView = useInView(ref, {once : true});
     return (
-        <section id='helping' ref={ref} className={`${isInView ? 'opacity-100' : 'opacity-0'} duration-700 delay-[.5s] h-auto lg:h-[50vh] px-8 py-4 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100`}>
+        <section id='helping' ref={ref} className={`${isInView ? 'opacity-100' : 'opacity-0'} duration-700 delay-[.4s] h-auto lg:h-[50vh] px-8 py-4 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 items-center bg-slate-100`}>
             <div className=''>
                 <h2 className={`relative ${isInView ? '-left-0' : '-left-52'} duration-700 delay-[.6s] ease-in-out text-Primary text-2xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center md:text-left`}
                 >Helping a local
